@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ayo Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='calculator.css'>
+    
+</head>
+<body>
+  <div id="animation-container"><div id="animate">
+    <h1>MY CALCULATOR</h1>
+  </div></div>
+    <!-- <input id="question" type="text" name="inputQuestion" value="0"><br>
+    <input id="answer" type="text" name="inputAnswer" value="0"><br> -->
+
+     <!-- The calculator display -->
+<div class="calculator-grid">
+<div class="calculator-display">
+    <div data-previous-operand class="question"></div>
+    <div data-current-operand class="answer"></div>
+</div>
+
+<!-- The calculator keys -->
+<div class="calculator-keys">
+    <button data-delete>CE</button>
+    <button data-all-clear>C</button>
+    <button data-number id="bracketButton">()</button>
+    <button data-operation>÷</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>*</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>-</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>+</button>
+    <button data-number>(-</button>
+    <button data-number>0</button>
+    <button data-number id="pointButton">.</button>
+    <button id="equalToButton" data-equals>=</button>
+</div>
+</div>
+
+<!-- <div class="animation-wrapper">
+    <div class="layered-animations">
+      <svg class="large shape" viewBox="0 0 96 96">
+        <defs>
+          <linearGradient id="circleGradient" x1="0%" x2="100%" y1="20%" y2="80%">
+            <stop stop-color="#373734" offset="0%"/>
+            <stop stop-color="#242423" offset="50%"/>
+            <stop stop-color="#0D0D0C" offset="100%"/>
+          </linearGradient>
+        </defs>
+        <circle cx="48" cy="48" r="28" fill-rule="evenodd" stroke-linecap="square" fill="url(#circleGradient)"/>
+      </svg>
+      <svg class="small shape color-red" viewBox="0 0 96 96">
+        <polygon fill-rule="evenodd" points="48 17.28 86.4 80.11584 9.6 80.11584" stroke-linecap="square"/>
+      </svg>
+      <svg class="large shape" viewBox="0 0 96 96">
+        <defs>
+          <linearGradient id="triangleGradient" x1="0%" x2="100%" y1="20%" y2="80%">
+            <stop stop-color="#373734" offset="0%"/>
+            <stop stop-color="#242423" offset="50%"/>
+            <stop stop-color="#0D0D0C" offset="100%"/>
+          </linearGradient>
+        </defs>
+        <polygon fill-rule="evenodd" points="48 17.28 86.4 80.11584 9.6 80.11584" stroke-linecap="square" fill="url(#triangleGradient)"/>
+      </svg>
+      <svg class="x-small shape" viewBox="0 0 96 96">
+        <polygon fill-rule="evenodd" points="48 17.28 86.4 80.11584 9.6 80.11584" stroke-linecap="square"/>
+      </svg>
+      <svg class="x-small shape" viewBox="0 0 96 96">
+        <rect width="48" height="48" x="24" y="24" fill-rule="evenodd" stroke-linecap="square"/>
+      </svg>
+      <svg class="small shape color-red" viewBox="0 0 96 96">
+        <rect width="48" height="48" x="24" y="24" fill-rule="evenodd" stroke-linecap="square"/>
+      </svg>
+      <svg class="large shape" viewBox="0 0 96 96">
+        <defs>
+          <linearGradient id="rectGradient" x1="0%" x2="100%" y1="20%" y2="80%">
+            <stop stop-color="#373734" offset="0%"/>
+            <stop stop-color="#242423" offset="50%"/>
+            <stop stop-color="#0D0D0C" offset="100%"/>
+          </linearGradient>
+        </defs>
+        <rect width="48" height="48" x="24" y="24" fill-rule="evenodd" stroke-linecap="square" fill="url(#rectGradient)"/>
+      </svg>
+      <svg class="small shape color-red" viewBox="0 0 96 96">
+        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square"/>
+      </svg>
+      <svg class="x-small shape" viewBox="0 0 96 96">
+        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square"/>
+      </svg>
+    </div>
+  </div> -->
+
+  
+<script src="calculator.js"></script>    
+</body>
+</html>
